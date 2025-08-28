@@ -1,0 +1,37 @@
+{
+  "name": "prologic-avatar-backend",
+  "version": "1.0.0",
+  "description": "Backend for the prologic avatar app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --ext js"
+  },
+  "dependencies": {
+    "@azure-rest/ai-inference": "^1.0.0-beta.6",
+    "@azure/core-auth": "^1.9.0",
+    "@azure/core-sse": "^2.2.0",
+    "@pinecone-database/pinecone": "^6.1.2",
+    "@xenova/transformers": "^2.17.2",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.6.1",
+    "elevenlabs-node": "^1.2.0",
+    "express": "^4.21.2",
+    "googleapis": "^154.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.13.1",
+    "pdfkit": "^0.17.1",
+    "qrcode": "^1.5.4",
+    "tts": "^0.1.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
