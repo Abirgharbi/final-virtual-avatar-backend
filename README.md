@@ -117,7 +117,7 @@ Lancez l'application en mode développement :
 yarn dev 
 ```
 
-## 📋 Guide pour l'Encadrant
+## 📋 Guide
 Tests :
 - Reconnaissance faciale : Testez /recognize-face avec une image (POST avec fichier image).
 - Enregistrement visiteur : Testez /register-visitor (POST avec firstName, lastName, email, photo, purpose).
