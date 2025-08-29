@@ -1,5 +1,20 @@
 # Projet Avatar IA Interactif - Backend
 
+
+## 📖 Description
+
+Ce dépôt contient le code source du **backend** pour le projet **Avatar IA Interactif pour Accueil Intelligent**, conçu pour automatiser et humaniser l'accueil physique en entreprise via un avatar IA. Le backend gère la logique métier, incluant la reconnaissance faciale, l'enregistrement des visiteurs, la génération de badges, l'IA conversationnelle, et la gestion des rendez-vous.
+
+Ce backend alimente le frontend [](https://github.com/Abirgharbi/final-virtual-avatar-frontend) via des endpoints API RESTful. Il intègre des services externes comme ElevenLabs pour la synthèse vocale, Groq pour l'IA conversationnelle, Pinecone pour la recherche vectorielle, et Google Calendar pour la gestion des rendez-vous.
+
+## 🎯 Objectifs du Projet
+
+- **Automatisation** : Identifier les employés/visiteurs via reconnaissance faciale et enregistrer les visites.
+- **Personnalisation** : Fournir des réponses contextuelles via IA conversationnelle et des recommandations adaptatives.
+- **Sécurité** : Journaliser les visites.
+- **Intégration** : Synchroniser avec des systèmes externes (Google Calendar, IA externe).
+- **Évolutivité** : Supporter des fonctionnalités premium (statistiques).
+
 ## 🏛️ Architecture
 
 ```mermaid
@@ -28,20 +43,6 @@ graph TD
     L -->|Recommendations| B
     M -->|Context Docs| B
 ```
-
-## 📖 Description
-
-Ce dépôt contient le code source du **backend** pour le projet **Avatar IA Interactif pour Accueil Intelligent**, conçu pour automatiser et humaniser l'accueil physique en entreprise via un avatar IA. Le backend gère la logique métier, incluant la reconnaissance faciale, l'enregistrement des visiteurs, la génération de badges, l'IA conversationnelle, et la gestion des rendez-vous.
-
-Ce backend alimente le frontend [](https://github.com/Abirgharbi/final-virtual-avatar-frontend) via des endpoints API RESTful. Il intègre des services externes comme ElevenLabs pour la synthèse vocale, Groq pour l'IA conversationnelle, Pinecone pour la recherche vectorielle, et Google Calendar pour la gestion des rendez-vous.
-
-## 🎯 Objectifs du Projet
-
-- **Automatisation** : Identifier les employés/visiteurs via reconnaissance faciale et enregistrer les visites.
-- **Personnalisation** : Fournir des réponses contextuelles via IA conversationnelle et des recommandations adaptatives.
-- **Sécurité** : Journaliser les visites.
-- **Intégration** : Synchroniser avec des systèmes externes (Google Calendar, IA externe).
-- **Évolutivité** : Supporter des fonctionnalités premium (statistiques).
 
 ## 🚀 Fonctionnalités Principales
 
